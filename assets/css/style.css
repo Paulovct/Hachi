@@ -1,0 +1,141 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.header{
+	width: 100%;
+	height: 80px;
+	background-color: #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header h1{
+	color: #fff;
+	margin: 10px 0 0 0;
+	font-size: 50px;
+	font-family: "Bebas Neue";
+	text-decoration: overline;
+}
+
+.banner{
+	background-image: url("../img/banner.jpg");
+	background-size: cover;
+	height: 700px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+}
+
+.box-text p{
+	font-family: "Inconsolata";
+	font-weight: 500;
+	font-size: 20px;
+	font-style: italic;
+	color: #999;
+	text-decoration: blink;
+	margin: 0 50px 30px 40px;	
+}
+
+.content{
+	background-color: #000;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+
+.box-perfil{
+	content: "";
+	background-image: url("../img/perfil.jpg");
+	border: 8px solid #ddd;
+	border-radius: 10px;
+	background-size: cover;
+	height: 350px;
+	width: 350px;
+	margin: 200px 0 0 0;
+	align-self: center;
+}
+
+.box-content{
+	margin: 50px 0 0 0;
+	border:3px solid #ddd ;
+	border-radius: 10px;
+	height: 500px;
+	width: 800px;
+	align-self: center;
+}
+
+.box-content-tittle{
+	width: 100%;
+	height: 70px;
+	border-bottom: 2px solid #ddd;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.box-content-tittle h1{
+	color: #FFF;
+	font-family: "Inconsolata";
+	font-weight: 500;
+	font-size: 24px;
+}
+
+.box-content-content{
+	align-self: center;
+	padding: 40px;
+}	
+.box-content-content p{
+	color: #fff;
+	font-family: "Inconsolata";
+	font-size: 18px;
+}
+.box-content-tittle.a h1{
+	font-size: 35px;
+	font-family: Arial;
+}
+.box-perfil.a{
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url("../img/planetes.jpg");
+	height: 499px;
+	margin-top: 100px;
+
+}
+.box-content.a{
+	height: 300px;
+	margin-bottom: 125px;
+}
+
+
+.footer{
+	border-top: 2px solid #ddd;
+	height: 70px;
+	width: 100%;
+	background-color: #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.footer span{
+	color: #FFF;
+	font-size: 18px;
+	font-family: "Inconsolata";
+	margin-right: 10px;
+}
+.footer p{
+	color: #aaa;
+	font-size: 18px;
+	font-family: "Inconsolata";
+	margin-right: 10px;
+}
+.footer a{
+	text-decoration: initial;
+	color: #FFF;
+	font-family: "Inconsolata";
+}
